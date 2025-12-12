@@ -61,6 +61,6 @@ while True:
     if status == 0:
         print(f"Sent `{payload}` to topic `{MQTT_TOPIC}`")
     else:
-        print(f"Failed to send message to topic {MQTT_TOPIC}")
+        print(f"Failed to send message to topic (not connected){MQTT_TOPIC}")
 
     time.sleep(SIMULATION_SPEED_SECONDS)
