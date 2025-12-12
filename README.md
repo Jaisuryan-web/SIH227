@@ -11,9 +11,9 @@
 
    
 Requirements:
-Python 3.10+ recommended
-Internet access (to reach HiveMQ public broker and CDN assets)
+Python 3.10+ recommended.
+Internet access (to reach HiveMQ public broker and CDN assets).
 Packages:
-Flask
-Flask-Cors
-Paho-MQTT
+Flask.
+Flask-Cors.
+Paho-MQTT.
